@@ -109,3 +109,27 @@ input[type=text], select {
     background-color: cyan;
   }
   
+  .banner-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #banner-long {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #banner-short {
+    width: 500px;
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #banner-long {
+      display: none;
+    }
+    #banner-short {
+      display: block;
+    }
+  }
