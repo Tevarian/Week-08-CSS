@@ -1,0 +1,111 @@
+* {
+  color: snow;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: darkslategray;
+  margin: 1em 2em;
+}
+
+img {
+    border-radius: 1em;
+}
+
+h1 {
+  font-size: largest;
+  font-weight: bolder;
+
+}
+
+h2 {
+    font-size: large;
+    color: aqua;
+}
+
+h3 {
+    font-size: medium;
+    color: aqua;
+}
+
+h4 {
+    font-size: small;
+}
+
+h5 {
+    font-size: smaller;
+}
+
+p {
+    font-size: smaller;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 4px;
+}
+
+a {
+  color: lightskyblue;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: blue;
+}
+
+#map {
+    border: 2px;
+    border-color: black;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0,0, 0.5));
+}
+
+.formBox {
+    margin: 1em 3em;
+    background-color: #383838;
+    border-radius: 1em;
+    width: 50%;
+    padding: 1px 25px 25px 25px;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0,0, 0.5));
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #252525;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #252525;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: darkcyan;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: cyan;
+  }
+  
